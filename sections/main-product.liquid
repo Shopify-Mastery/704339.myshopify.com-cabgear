@@ -15,6 +15,75 @@
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
 
+  .product-media__name-overlay {
+    position: absolute !important;
+    top: 30% !important;
+    left: 20% !important;
+    z-index: 10000 !important;
+
+    height: auto !important;
+    width: auto !important;
+
+    transform: rotateZ(315deg) !important;
+
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    color: white !important;;
+  }
+
+  .product-media__logo-overlay {
+    position: absolute !important;
+    top: 30% !important;
+    left: 35% !important;
+    z-index: 10000 !important;
+
+    height: 5rem !important;
+    width: 5rem !important;
+  }
+
+  @media screen and (min-width: 375px) {
+    .product-media__name-overlay {
+      left: 22% !important;
+    }
+  }
+
+  @media screen and (min-width: 425px) {
+    .product-media__name-overlay {
+      left: 23% !important;
+    }
+
+    .product-media__logo-overlay {
+      left: 40% !important;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .product-media__name-overlay {
+      font-size: 1.5rem !important;
+    }
+
+    .product-media__logo-overlay {
+      top: 30% !important;
+      left: 35% !important;
+
+      height: 7rem !important;
+      width: 7rem !important;
+    }
+  }
+
+  @media screen and (min-width: 2560px) {
+    .product-media__name-overlay {
+      top: 31% !important;
+      left: 23% !important;
+      font-size: 1.5rem !important;
+    }
+
+    .product-media__logo-overlay {
+      height: 10rem !important;
+      width: 10rem !important;
+    }
+  }
+
   {%- liquid
     assign first_image = product.media.first
 
@@ -692,6 +761,32 @@
             {% render 'product-variant-picker', block: block, product: product %}
           {%- when 'buy_buttons' -%}
             {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
+            <script type="text/javascript">
+              document.addEventListener('DOMContentLoaded', function() {
+                let globoNameInputEl = null
+                let globoLogoRadioEl = null
+                let globoLogoImageEl = null
+
+                function searchGloboInputElements() {
+                  globoNameInputEl = document.querySelector('div.globo-name__input-element input[type="text"]');
+                  globoLogoRadioEl = document.querySelector('div.globo-logo__radio-element input[type="checkbox"]');
+                  globoLogoImageEl = document.querySelector('div.globo-logo__image-element input[type="file"]');
+                  
+                  if (globoNameInputEl || globoLogoRadioEl || globoLogoImageEl) {
+                    clearInterval(searchInterval);
+                    addEventListenersToGloboInputElements()
+                  }
+                }
+
+                const intervalDuration = 500; // 1 second
+
+                const searchInterval = setInterval(searchGloboInputElements, intervalDuration);
+
+                function addEventListenersToGloboInputElements() {
+                  console.log(globoNameInputEl, globoLogoRadioEl, globoLogoImageEl)
+                }
+              });
+            </script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
               {% liquid
@@ -1090,6 +1185,8 @@
     document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {
       hiddenInput.value = event.currentTarget.value;
     });
+
+
   });
 </script>
 
