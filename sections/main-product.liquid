@@ -18,11 +18,11 @@
   .product-media__name-overlay {
     position: absolute !important;
     top: 30% !important;
-    left: 20% !important;
+    left: 18% !important;
     z-index: 10000 !important;
 
     height: auto !important;
-    width: auto !important;
+    width: 7rem !important;
 
     transform: rotateZ(315deg) !important;
 
@@ -42,13 +42,7 @@
 
   @media screen and (min-width: 375px) {
     .product-media__name-overlay {
-      left: 22% !important;
-    }
-  }
-
-  @media screen and (min-width: 425px) {
-    .product-media__name-overlay {
-      left: 23% !important;
+      left: 20% !important;
     }
 
     .product-media__logo-overlay {
@@ -56,14 +50,37 @@
     }
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 425px) {
     .product-media__name-overlay {
-      font-size: 1.5rem !important;
+      left: 20% !important;
+      top: 30% !important;
+      width: 8rem !important;
     }
 
     .product-media__logo-overlay {
+      left: 40% !important;
+      top: 32% !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .product-media__name-overlay {
+      left: 18% !important;
+    }
+  }
+
+
+  @media screen and (min-width: 1440px) {
+    .product-media__name-overlay {
+      font-size: 1.5rem !important;
       top: 30% !important;
-      left: 35% !important;
+      left: 18% !important;
+      width: 12rem !important;
+    }
+
+    .product-media__logo-overlay {
+      top: 32% !important;
+      left: 38% !important;
 
       height: 7rem !important;
       width: 7rem !important;
@@ -72,14 +89,9 @@
 
   @media screen and (min-width: 2560px) {
     .product-media__name-overlay {
-      top: 31% !important;
-      left: 23% !important;
+      top: 30% !important;
+      left: 20% !important;
       font-size: 1.5rem !important;
-    }
-
-    .product-media__logo-overlay {
-      height: 10rem !important;
-      width: 10rem !important;
     }
   }
 
@@ -781,8 +793,35 @@
 
                 const searchInterval = setInterval(searchGloboInputElements, intervalDuration);
 
+                const nameOverlayEls = document.querySelectorAll('div.product-media__name-overlay');
+
+                function updateNameOverlayContent() {
+                  nameOverlayEls.forEach(nameOverlayEl => {
+                    nameOverlayEl.textContent = globoNameInputEl.value;
+                  })
+                }
+
+                const logoOverlayElements = document.querySelectorAll('img.product-media__logo-overlay');
+
+                function updateLogoOverlayContent() {
+                  const file = globoLogoImageEl.files[0];
+                  const reader = new FileReader();
+
+                  reader.onload = function (event) {
+                    const imageUrl = event.target.result;
+                    logoOverlayElements.forEach((imgElement) => {
+                      imgElement.src = imageUrl;
+                    });
+                  };
+
+                  if (file) {
+                    reader.readAsDataURL(file);
+                  }
+                }
+
                 function addEventListenersToGloboInputElements() {
-                  console.log(globoNameInputEl, globoLogoRadioEl, globoLogoImageEl)
+                  globoNameInputEl.addEventListener('input', updateNameOverlayContent);
+                  globoLogoImageEl.addEventListener('change', updateLogoOverlayContent);
                 }
               });
             </script>
