@@ -1,0 +1,422 @@
+{
+  "sections": {
+    "2c71e23c-ef5c-4362-b7a6-fcbaacc4490d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Brug for mere aflægningsplads i din traktor?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find dit bord!",
+            "button_link": "shopify:\/\/collections",
+            "button_size": "large",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-0",
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-1",
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Jan_cleaup_foto_2.png",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "400px",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "colors_button_label": "#023047",
+        "colors_button_background": "#ffb503",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 48,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "322be502-aa52-461e-895a-c8933238c56c": {
+      "type": "guarantees",
+      "blocks": {
+        "6354b249-6e34-4fd3-b16d-cdade49bd95c": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "map_pin",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M12 20.9l4.95-4.95a7 7 0 1 0-9.9 0L12 20.9zm0 2.828l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "1. Find din model",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "a63b5e87-69f1-45d7-b23d-d5df0c6eeda1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "bottle",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M6.343 14.621L3.515 17.45l3.535 3.535L20.485 7.55 16.95 4.015l-2.122 2.121 1.415 1.414-1.415 1.414-1.414-1.414-2.121 2.122 2.121 2.12L12 13.208l-2.121-2.121-2.122 2.121 1.415 1.414-1.415 1.415-1.414-1.415zM17.657 1.893l4.95 4.95a1 1 0 0 1 0 1.414l-14.85 14.85a1 1 0 0 1-1.414 0l-4.95-4.95a1 1 0 0 1 0-1.414l14.85-14.85a1 1 0 0 1 1.414 0z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "2. Tilpas dit bord",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "7e8186a4-07a3-4bb9-9869-88f5ff5a5277": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "package",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M8.965 18a3.5 3.5 0 0 1-6.93 0H1V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2h3l3 4.056V18h-2.035a3.5 3.5 0 0 1-6.93 0h-5.07zM15 7H3v8.05a3.5 3.5 0 0 1 5.663.95h5.674c.168-.353.393-.674.663-.95V7zm2 6h4v-.285L18.992 10H17v3zm.5 6a1.5 1.5 0 1 0 0-3.001 1.5 1.5 0 0 0 0 3.001zM7 17.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "3. Bestil dit bord",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "6354b249-6e34-4fd3-b16d-cdade49bd95c",
+        "a63b5e87-69f1-45d7-b23d-d5df0c6eeda1",
+        "7e8186a4-07a3-4bb9-9869-88f5ff5a5277"
+      ],
+      "settings": {
+        "layout": "sidebar",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffb503",
+        "colors_text": "#1a1b18",
+        "colors_background": "#000000",
+        "gradient_background": "",
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "983be280-a08f-4164-99d2-c91591b394f7": {
+      "type": "gallery",
+      "blocks": {
+        "32f7654d-f311-4c11-843e-a16bf5a60b65": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Front_kollektions_billeder.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "",
+            "text_box_position": "bottom-left"
+          }
+        },
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_3f33d10b-33d6-4358-9893-62f2010d65a4.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/john-deere",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_40b64a61-8239-4807-aea1-3d3c5c2affe3.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/new-holland",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_b28173e0-7fde-4ed5-bf6a-115b28f39fec.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/fendt",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_cfd5b914-0129-42d3-81ae-48c645055644.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/valtra",
+            "text_box_position": "middle-center"
+          }
+        },
+        "fedc127f-7298-4107-aab9-21b4d3ba1e16": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MF_Ny.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/massey-ferguson",
+            "text_box_position": "middle-center"
+          }
+        },
+        "f340ffd0-fdbb-44ce-8465-4ba00bc494ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Andet_kollektionsbillede.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/andet",
+            "text_box_position": "middle-center"
+          }
+        },
+        "724d2a60-d4ba-4315-973e-b97d84361ee1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Find_din_model.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/pages\/contact",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "32f7654d-f311-4c11-843e-a16bf5a60b65",
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-0",
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-1",
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-2",
+        "template--17118604460299__983be280-a08f-4164-99d2-c91591b394f7-1685019604d06a4e1d-3",
+        "fedc127f-7298-4107-aab9-21b4d3ba1e16",
+        "f340ffd0-fdbb-44ce-8465-4ba00bc494ee",
+        "724d2a60-d4ba-4315-973e-b97d84361ee1"
+      ],
+      "settings": {
+        "per_row": 3,
+        "spacing_images": 10,
+        "image_height": 360,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "mobile_image_height": 170,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4a83673a-d9a6-4d17-85b2-2ba8b0208aba": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Personliggør dit bord!",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personliggør dit bord, til din traktor og skil dig ud fra mængden.<br\/><br\/>1. Skriv dit navn<br\/>2. Upload dit ønskede logo<br\/>3. Vælg hvilken farve dit bord skal have<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Dit Bord",
+            "button_link": "shopify:\/\/collections",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-0",
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-1",
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DIT_LOGO.png",
+        "image_position": "80% 50%",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "300px",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 40,
+        "padding_bottom": 28
+      }
+    },
+    "a4fbec7f-bada-43d2-be29-35b3413431fa": {
+      "type": "guarantees",
+      "blocks": {
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "map_pin",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 370 280\"><path fill=\"#c60c30\" d=\"M0 0h370v280H0z\"><\/path><path fill=\"#fff\" d=\"M120 0h40v280h-40z\"><\/path><path fill=\"#fff\" d=\"M0 120h370v40H0z\"><\/path><\/svg>",
+            "title": "Håndlavet i Danmark",
+            "title_size": "h3",
+            "text": "<p>Vi går op i god kvalitet, derfor er alle vores produkter håndlavet i Danmark! <\/p>"
+          }
+        },
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "chat_bubble",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"120\" height=\"120\"><path d=\"M10.0014 14.6759C10.0011 14.6553 10.001 14.6347 10.001 14.6141C10.001 12.1058 12.0175 9.99588 14.7539 9.38116C14.3904 7.07897 11.9602 5.2002 8.90098 5.2002C5.58037 5.2002 3.00098 7.41369 3.00098 9.97954C3.00098 10.9489 3.36131 11.8803 4.04082 12.6783C4.0728 12.7159 4.12443 12.772 4.19342 12.8429C4.78537 13.4519 5.13709 14.2459 5.19546 15.0807C5.90857 14.6685 6.74285 14.5125 7.55832 14.6394C7.72416 14.6652 7.85986 14.685 7.96345 14.6985C8.27111 14.7386 8.58419 14.7589 8.90098 14.7589C9.27825 14.7589 9.64595 14.7303 10.0014 14.6759ZM10.4581 16.6272C9.95467 16.7136 9.43399 16.7589 8.90098 16.7589C8.49441 16.7589 8.09502 16.7325 7.70499 16.6817C7.58312 16.6658 7.4317 16.6438 7.25073 16.6156C6.87693 16.5575 6.49436 16.6324 6.1713 16.827L4.26653 17.9747C4.12052 18.0649 3.94891 18.1059 3.77733 18.0918C3.33814 18.0557 3.01178 17.6746 3.04837 17.2408L3.19859 15.4599C3.23664 15.0089 3.07664 14.5634 2.75931 14.237C2.66182 14.1367 2.5814 14.0493 2.51802 13.9749C1.56406 12.8545 1.00098 11.4734 1.00098 9.97954C1.00098 6.23541 4.53793 3.2002 8.90098 3.2002C12.9601 3.2002 16.3041 5.82724 16.7504 9.20813C20.1225 9.36161 22.801 11.7232 22.801 14.6141C22.801 15.8071 22.3448 16.9099 21.572 17.8047C21.5206 17.8641 21.4555 17.9339 21.3765 18.014C21.1194 18.2747 20.9898 18.6304 21.0206 18.9906L21.1423 20.4127C21.172 20.7592 20.9076 21.0635 20.5518 21.0924C20.4128 21.1036 20.2738 21.0708 20.1555 20.9988L18.6124 20.0823C18.3506 19.9269 18.0407 19.867 17.7379 19.9135C17.5913 19.936 17.4686 19.9536 17.3699 19.9663C17.0539 20.0069 16.7303 20.0279 16.401 20.0279C13.7074 20.0279 11.4025 18.6203 10.4581 16.6272ZM17.4346 17.9366C18.0019 17.8496 18.5793 17.9112 19.1105 18.1113C19.2492 17.5506 19.5373 17.0307 19.9524 16.6097C20.0027 16.5587 20.0388 16.5201 20.0584 16.4973C20.5467 15.9321 20.801 15.2841 20.801 14.6141C20.801 12.8097 18.8983 11.2002 16.401 11.2002C13.9037 11.2002 12.001 12.8097 12.001 14.6141C12.001 16.4184 13.9037 18.0279 16.401 18.0279C16.6424 18.0279 16.8809 18.0127 17.115 17.9826C17.1957 17.9722 17.3029 17.9568 17.4346 17.9366Z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "Har du spørgsmål?",
+            "title_size": "h3",
+            "text": "<p>Der er ingen dumme spørgsmål. Vi stræber efter at svare beskeder indenfor 24 timer<\/p>"
+          }
+        },
+        "7ebd765f-4a42-49f2-aa95-d11b7e30e663": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"36\" height=\"36\"><path d=\"M8.96456 18C8.72194 19.6961 7.26324 21 5.5 21C3.73676 21 2.27806 19.6961 2.03544 18H1V6C1 5.44772 1.44772 5 2 5H16C16.5523 5 17 5.44772 17 6V8H20L23 12.0557V18H20.9646C20.7219 19.6961 19.2632 21 17.5 21C15.7368 21 14.2781 19.6961 14.0354 18H8.96456ZM15 7H3V15.0505C3.63526 14.4022 4.52066 14 5.5 14C6.8962 14 8.10145 14.8175 8.66318 16H14.3368C14.5045 15.647 14.7296 15.3264 15 15.0505V7ZM17 13H21V12.715L18.9917 10H17V13ZM17.5 19C18.1531 19 18.7087 18.5826 18.9146 18C18.9699 17.8436 19 17.6753 19 17.5C19 16.6716 18.3284 16 17.5 16C16.6716 16 16 16.6716 16 17.5C16 17.6753 16.0301 17.8436 16.0854 18C16.2913 18.5826 16.8469 19 17.5 19ZM7 17.5C7 16.6716 6.32843 16 5.5 16C4.67157 16 4 16.6716 4 17.5C4 17.6753 4.03008 17.8436 4.08535 18C4.29127 18.5826 4.84689 19 5.5 19C6.15311 19 6.70873 18.5826 6.91465 18C6.96992 17.8436 7 17.6753 7 17.5Z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "Lynhurtig levering",
+            "title_size": "h3",
+            "text": "<p>Alle vores produkter er håndlavet, dog sikrer vi stadig hurtig levering på 2-7 dage!<\/p>"
+          }
+        },
+        "70462c58-acb5-4500-b4ea-bf1f912456dd": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "lightning_bolt",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"36\" height=\"36\"><path d=\"M7.05033 14.1214L4.929 16.2427L7.75743 19.0711L19.0711 7.75743L16.2427 4.929L14.1214 7.05033L15.5356 8.46454L14.1214 9.87875L12.7072 8.46454L11.293 9.87875L12.7072 11.293L11.293 12.7072L9.87875 11.293L8.46454 12.7072L9.87875 14.1214L8.46454 15.5356L7.05033 14.1214ZM16.9498 2.80768L21.1925 7.05033C21.583 7.44085 21.583 8.07401 21.1925 8.46454L8.46454 21.1925C8.07401 21.583 7.44085 21.583 7.05033 21.1925L2.80768 16.9498C2.41716 16.5593 2.41716 15.9261 2.80768 15.5356L15.5356 2.80768C15.9261 2.41716 16.5593 2.41716 16.9498 2.80768ZM14.1214 18.3635L15.5356 16.9493L17.7781 19.1918H19.1923V17.7776L16.9498 15.5351L18.364 14.1209L20.9997 16.7566V20.9999H16.7578L14.1214 18.3635ZM5.63597 9.87812L2.80754 7.04969C2.41702 6.65917 2.41702 6.02601 2.80754 5.63548L5.63597 2.80705C6.02649 2.41653 6.65966 2.41653 7.05018 2.80705L9.87861 5.63548L8.4644 7.04969L6.34308 4.92837L4.92886 6.34259L7.05018 8.46391L5.63597 9.87812Z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "Personligt design",
+            "title_size": "h3",
+            "text": "<p>Du kan nemt tilpasse dit bord, med dit eget firmalogo og navn!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-0",
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-1",
+        "7ebd765f-4a42-49f2-aa95-d11b7e30e663",
+        "70462c58-acb5-4500-b4ea-bf1f912456dd"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#000000",
+        "colors_text": "#1a1b18",
+        "colors_background": "#000000",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16846876040336b689": {
+      "type": "apps",
+      "blocks": {
+        "428d021c-f355-4bff-9b5d-10a28b8dcdb8": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "disabled": true,
+          "settings": {
+            "heading_size": 22,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "428d021c-f355-4bff-9b5d-10a28b8dcdb8"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "2c71e23c-ef5c-4362-b7a6-fcbaacc4490d",
+    "322be502-aa52-461e-895a-c8933238c56c",
+    "983be280-a08f-4164-99d2-c91591b394f7",
+    "4a83673a-d9a6-4d17-85b2-2ba8b0208aba",
+    "a4fbec7f-bada-43d2-be29-35b3413431fa",
+    "16846876040336b689"
+  ]
+}

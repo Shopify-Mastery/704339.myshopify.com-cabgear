@@ -1,0 +1,17 @@
+{
+  "parent": "product.gift-card.json",
+  "context": {
+    "market": "dk"
+  },
+  "sections": {
+    "main": {
+      "blocks": {
+        "countdown": {
+          "settings": {
+            "heading": "Skynd dig! Udsalget slutter om:"
+          }
+        }
+      }
+    }
+  }
+}

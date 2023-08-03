@@ -1,0 +1,146 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "sort": "date",
+        "columns_mobile": "2",
+        "heading": "VÆLG TRAKTORMÆRKE",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "grid_image": "collection",
+        "image_ratio": "square",
+        "image_position": "center center",
+        "apply_overlay": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "600724a7-415a-49ad-8316-d2dc9512824c": {
+      "type": "gallery",
+      "blocks": {
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_3f33d10b-33d6-4358-9893-62f2010d65a4.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/john-deere",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_40b64a61-8239-4807-aea1-3d3c5c2affe3.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/new-holland",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_b28173e0-7fde-4ed5-bf6a-115b28f39fec.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/fendt",
+            "text_box_position": "middle-center"
+          }
+        },
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_cfd5b914-0129-42d3-81ae-48c645055644.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/valtra",
+            "text_box_position": "middle-center"
+          }
+        },
+        "810d0f38-d444-440a-9b8f-099c5c4b33f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MF_Ny.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/collections\/massey-ferguson",
+            "text_box_position": "middle-center"
+          }
+        },
+        "641897cd-c5b6-4edc-8723-b4d832ef3aa0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Find_din_model.png",
+            "image_position": "center center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h3",
+            "link": "shopify:\/\/pages\/contact",
+            "text_box_position": "middle-center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-0",
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-1",
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-2",
+        "template--17118604493067__600724a7-415a-49ad-8316-d2dc9512824c-16850285403de5a5d0-3",
+        "810d0f38-d444-440a-9b8f-099c5c4b33f5",
+        "641897cd-c5b6-4edc-8723-b4d832ef3aa0"
+      ],
+      "settings": {
+        "per_row": 3,
+        "spacing_images": 10,
+        "image_height": 360,
+        "apply_overlay": true,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "VÆLG TRAKTORMÆRKE",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "mobile_image_height": 170,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "017e4123-33ac-436a-9061-92e495953785": {
+      "type": "contact-form",
+      "settings": {
+        "show_phone": true,
+        "show_divider": true,
+        "heading": "Kan du ikke finde et bord som passer til din traktor? Kontakt os!",
+        "heading_size": "h2",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "600724a7-415a-49ad-8316-d2dc9512824c",
+    "017e4123-33ac-436a-9061-92e495953785"
+  ]
+}

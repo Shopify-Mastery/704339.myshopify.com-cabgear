@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kontakt os",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kan du ikke finde et bord som passer til din traktor? Eller har du andre spørgsmål? Tøv ikke med at kontakte os!<\/p>",
+            "text_size": "typeset3",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/285007040_1766612060343667_924038372472567373_n.jpg",
+        "image_position": "top center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "550px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "250px",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "0973523b-5ca1-4c60-b835-39ed233cc846": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17118604624139__0973523b-5ca1-4c60-b835-39ed233cc846-1684670993b5853a7b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17118604624139__0973523b-5ca1-4c60-b835-39ed233cc846-1684670993b5853a7b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604624139__0973523b-5ca1-4c60-b835-39ed233cc846-1684670993b5853a7b-0",
+        "template--17118604624139__0973523b-5ca1-4c60-b835-39ed233cc846-1684670993b5853a7b-2"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "narrow": false,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "show_phone": true,
+        "show_divider": false,
+        "heading": "Kontakt os",
+        "heading_size": "h2",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8bc1e50c-1720-42da-8df9-1426d8c38469": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17118604624139__8bc1e50c-1720-42da-8df9-1426d8c38469-1685380002d5a9963c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Cabgear ApS<br\/><\/strong>Vilhelm Ehlerts Alle 17G, 3. tv 8800<br\/>TLF:<a href=\"tel:+4530707305\">+4530707305<br\/><\/a>CVR: 43959565<br\/>E-mail: kontakt@cabgear.dk<\/p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604624139__8bc1e50c-1720-42da-8df9-1426d8c38469-1685380002d5a9963c-1"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image-banner",
+    "0973523b-5ca1-4c60-b835-39ed233cc846",
+    "main",
+    "form",
+    "8bc1e50c-1720-42da-8df9-1426d8c38469"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-sidebar",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "heading": "Customer service",
+            "content": "<p>For assistance, please email us at <a href=\"mailto:info@yourstore.com\" title=\"mailto:info@yourstore.com\">info@yourstore.com<\/a><\/p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "8d988837-d664-4849-8c22-fd8cec89e6e5": {
+          "type": "text",
+          "settings": {
+            "heading": "Customer service",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "separator",
+        "8d988837-d664-4849-8c22-fd8cec89e6e5"
+      ],
+      "settings": {
+        "narrow": false,
+        "colors_text": "#1a1b18",
+        "colors_border": "#d2d5d9",
+        "colors_background": "#f6eedd",
+        "gradient_background": "",
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

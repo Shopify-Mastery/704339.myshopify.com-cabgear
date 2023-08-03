@@ -1,0 +1,362 @@
+{
+  "sections": {
+    "2c71e23c-ef5c-4362-b7a6-fcbaacc4490d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Brug for mere plads i din traktor?",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der følger beslag med til alle borde!<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find dit bord!",
+            "button_link": "shopify:\/\/collections",
+            "button_size": "large",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-0",
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-1",
+        "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/285736749_1766612367010303_6260695914809486721_n.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-center",
+        "text_alignment": "center",
+        "image_ratio": "750px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "colors_button_label": "#023047",
+        "colors_button_background": "#ffb503",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 48,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "322be502-aa52-461e-895a-c8933238c56c": {
+      "type": "guarantees",
+      "blocks": {
+        "6354b249-6e34-4fd3-b16d-cdade49bd95c": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "map_pin",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M12 20.9l4.95-4.95a7 7 0 1 0-9.9 0L12 20.9zm0 2.828l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "1. Find din model",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "a63b5e87-69f1-45d7-b23d-d5df0c6eeda1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "bottle",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M6.343 14.621L3.515 17.45l3.535 3.535L20.485 7.55 16.95 4.015l-2.122 2.121 1.415 1.414-1.415 1.414-1.414-1.414-2.121 2.122 2.121 2.12L12 13.208l-2.121-2.121-2.122 2.121 1.415 1.414-1.415 1.415-1.414-1.415zM17.657 1.893l4.95 4.95a1 1 0 0 1 0 1.414l-14.85 14.85a1 1 0 0 1-1.414 0l-4.95-4.95a1 1 0 0 1 0-1.414l14.85-14.85a1 1 0 0 1 1.414 0z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "2. Tilpas dit bord",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
+        "7e8186a4-07a3-4bb9-9869-88f5ff5a5277": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "package",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M8.965 18a3.5 3.5 0 0 1-6.93 0H1V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2h3l3 4.056V18h-2.035a3.5 3.5 0 0 1-6.93 0h-5.07zM15 7H3v8.05a3.5 3.5 0 0 1 5.663.95h5.674c.168-.353.393-.674.663-.95V7zm2 6h4v-.285L18.992 10H17v3zm.5 6a1.5 1.5 0 1 0 0-3.001 1.5 1.5 0 0 0 0 3.001zM7 17.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z\" fill=\"rgba(255,181,3,1)\"><\/path><\/svg>",
+            "title": "3. Bestil dit bord",
+            "title_size": "h3",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "6354b249-6e34-4fd3-b16d-cdade49bd95c",
+        "a63b5e87-69f1-45d7-b23d-d5df0c6eeda1",
+        "7e8186a4-07a3-4bb9-9869-88f5ff5a5277"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h4",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffb503",
+        "colors_text": "#1a1b18",
+        "colors_background": "#000000",
+        "gradient_background": "",
+        "padding_top": 28,
+        "padding_bottom": 24
+      }
+    },
+    "a761a8a6-8206-455a-bdd0-e9bbdf539d72": {
+      "type": "collection-list",
+      "blocks": {
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "john-deere",
+            "image": "shopify:\/\/shop_images\/1_3f33d10b-33d6-4358-9893-62f2010d65a4.png",
+            "image_position": "center center"
+          }
+        },
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-holland",
+            "image": "shopify:\/\/shop_images\/2_40b64a61-8239-4807-aea1-3d3c5c2affe3.png",
+            "image_position": "center center"
+          }
+        },
+        "e5b8258e-7df0-44c5-8c69-948b67ac7f3d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "case-ih",
+            "image": "shopify:\/\/shop_images\/4_7c334428-7b2c-4cbc-93f9-37eea30583f4.png",
+            "image_position": "center center"
+          }
+        },
+        "f977502a-6215-4bf8-b81e-d45459ce24ab": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fendt",
+            "image": "shopify:\/\/shop_images\/5_b28173e0-7fde-4ed5-bf6a-115b28f39fec.png",
+            "image_position": "center center"
+          }
+        },
+        "9d07ff59-aeff-4603-88a6-eb208d48da4f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "valtra",
+            "image": "shopify:\/\/shop_images\/6_cfd5b914-0129-42d3-81ae-48c645055644.png",
+            "image_position": "center center"
+          }
+        },
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massey-ferguson",
+            "image": "shopify:\/\/shop_images\/3_decded7f-3c68-42b0-a8f2-cd2cd0cf3a7e.png",
+            "image_position": "center center"
+          }
+        },
+        "14799ed8-aa8e-4ad6-8a6f-d5d89b493196": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "class",
+            "image": "shopify:\/\/shop_images\/Claas.png",
+            "image_position": "center center"
+          }
+        },
+        "f4fa677e-7b80-47db-b2b1-5b414130d710": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "deutz",
+            "image": "shopify:\/\/shop_images\/7.png",
+            "image_position": "center center"
+          }
+        },
+        "07b99bbf-3bc5-4e40-a2b0-4b7e7e3421ea": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "andre-maerker",
+            "image": "shopify:\/\/shop_images\/Andre_maerker.png",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-0",
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-1",
+        "e5b8258e-7df0-44c5-8c69-948b67ac7f3d",
+        "f977502a-6215-4bf8-b81e-d45459ce24ab",
+        "9d07ff59-aeff-4603-88a6-eb208d48da4f",
+        "template--17118604460299__a761a8a6-8206-455a-bdd0-e9bbdf539d72-167390296283e78869-2",
+        "14799ed8-aa8e-4ad6-8a6f-d5d89b493196",
+        "f4fa677e-7b80-47db-b2b1-5b414130d710",
+        "07b99bbf-3bc5-4e40-a2b0-4b7e7e3421ea"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h5",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": true,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
+    "a4fbec7f-bada-43d2-be29-35b3413431fa": {
+      "type": "guarantees",
+      "blocks": {
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "map_pin",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 370 280\"><path fill=\"#c60c30\" d=\"M0 0h370v280H0z\"><\/path><path fill=\"#fff\" d=\"M120 0h40v280h-40z\"><\/path><path fill=\"#fff\" d=\"M0 120h370v40H0z\"><\/path><\/svg>",
+            "title": "Håndlavet i Danmark",
+            "title_size": "h3",
+            "text": "<p>Vi går op i god kvalitet, derfor er alle vores produkter håndlavet i Danmark! <\/p>"
+          }
+        },
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "chat_bubble",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M8.667 11.511a1.276 1.276 0 0 1-1.285-1.285c0-.718.567-1.286 1.285-1.286.717 0 1.285.568 1.285 1.286 0 .717-.568 1.285-1.285 1.285zm6.666 0a1.276 1.276 0 0 1-1.285-1.285c0-.718.568-1.286 1.285-1.286.718 0 1.285.568 1.285 1.286 0 .717-.567 1.285-1.285 1.285zm-8.51 7.704l.715-.436a4 4 0 0 1 2.705-.536c.212.033.386.059.52.076.406.054.82.081 1.237.081 4.42 0 7.9-3.022 7.9-6.6S16.42 5.2 12 5.2s-7.9 3.022-7.9 6.6c0 1.366.5 2.673 1.432 3.781.048.057.12.137.214.235a4 4 0 0 1 1.101 3.102l-.025.297zm-.63 2.727a1 1 0 0 1-1.527-.93l.188-2.26a2 2 0 0 0-.55-1.551A6.993 6.993 0 0 1 4 16.868C2.806 15.447 2.1 13.695 2.1 11.8c0-4.75 4.432-8.6 9.9-8.6s9.9 3.85 9.9 8.6-4.432 8.6-9.9 8.6c-.51 0-1.01-.033-1.499-.098a23.61 23.61 0 0 1-.569-.084 2 2 0 0 0-1.353.268l-2.387 1.456z\" fill=\"rgba(230,126,34,1)\"><\/path><\/svg>",
+            "title": "Har du spørgsmål?",
+            "title_size": "h3",
+            "text": "<p>Der er ingen dumme spørgsmål. Vi stræber efter at svare beskeder indenfor 24 timer<\/p>"
+          }
+        },
+        "7ebd765f-4a42-49f2-aa95-d11b7e30e663": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "truck",
+            "icon_size": "large",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"24\" height=\"24\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M8.965 18a3.5 3.5 0 0 1-6.93 0H1V6a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2h3l3 4.056V18h-2.035a3.5 3.5 0 0 1-6.93 0h-5.07zM15 7H3v8.05a3.5 3.5 0 0 1 5.663.95h5.674c.168-.353.393-.674.663-.95V7zm2 6h4v-.285L18.992 10H17v3zm.5 6a1.5 1.5 0 1 0 0-3.001 1.5 1.5 0 0 0 0 3.001zM7 17.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z\" fill=\"rgba(230,126,34,1)\"><\/path><\/svg>",
+            "title": "Lynhurtig levering",
+            "title_size": "h3",
+            "text": "<p>Alle vores produkter er håndlavet, dog sikrer vi stadig hurtig levering på 2-5 dage!<\/p>"
+          }
+        },
+        "70462c58-acb5-4500-b4ea-bf1f912456dd": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "lightning_bolt",
+            "icon_size": "medium",
+            "custom_icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 24 24\" width=\"36\" height=\"36\"><path fill=\"none\" d=\"M0 0h24v24H0z\"><\/path><path d=\"M7.05 14.121L4.93 16.243l2.828 2.828L19.071 7.757 16.243 4.93 14.12 7.05l1.415 1.414L14.12 9.88l-1.414-1.415-1.414 1.415 1.414 1.414-1.414 1.414-1.414-1.414-1.415 1.414 1.415 1.414-1.415 1.415L7.05 14.12zm9.9-11.313l4.242 4.242a1 1 0 0 1 0 1.414L8.464 21.192a1 1 0 0 1-1.414 0L2.808 16.95a1 1 0 0 1 0-1.414L15.536 2.808a1 1 0 0 1 1.414 0zM14.12 18.363l1.415-1.414 2.242 2.243h1.414v-1.414l-2.242-2.243 1.414-1.414L21 16.757V21h-4.242l-2.637-2.637zM5.636 9.878L2.807 7.05a1 1 0 0 1 0-1.415l2.829-2.828a1 1 0 0 1 1.414 0L9.88 5.635 8.464 7.05 6.343 4.928 4.929 6.343l2.121 2.12-1.414 1.415z\" fill=\"rgba(230,126,34,1)\"><\/path><\/svg>",
+            "title": "Personligt design",
+            "title_size": "h3",
+            "text": "<p>Du kan nemt tilpasse dit bord, med dit eget logo og egen tekst!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-0",
+        "template--17118604460299__a4fbec7f-bada-43d2-be29-35b3413431fa-1673884880fff27954-1",
+        "7ebd765f-4a42-49f2-aa95-d11b7e30e663",
+        "70462c58-acb5-4500-b4ea-bf1f912456dd"
+      ],
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#000000",
+        "colors_text": "#1a1b18",
+        "colors_background": "#000000",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "4a83673a-d9a6-4d17-85b2-2ba8b0208aba": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-0",
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-1",
+        "template--17118604460299__4a83673a-d9a6-4d17-85b2-2ba8b0208aba-1673884881c207ffb9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/285736749_1766612367010303_6260695914809486721_n.jpg",
+        "image_position": "80% 50%",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "2c71e23c-ef5c-4362-b7a6-fcbaacc4490d",
+    "322be502-aa52-461e-895a-c8933238c56c",
+    "a761a8a6-8206-455a-bdd0-e9bbdf539d72",
+    "a4fbec7f-bada-43d2-be29-35b3413431fa",
+    "4a83673a-d9a6-4d17-85b2-2ba8b0208aba"
+  ]
+}
