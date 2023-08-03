@@ -26,7 +26,6 @@
 
     transform: rotateZ(315deg) !important;
 
-    font-weight: bold !important;
     font-size: 1rem !important;
     color: white !important;;
   }
@@ -232,7 +231,7 @@
                     data-media-position="{{ media.position }}"
                     {% if gang_exist == true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}"{% endif %}
                   >
-                    {% render 'product-image', media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
+                    {% render 'product-image', globo_option_default_name: section.settings.globo_option_default_name, globo_option_default_logo: section.settings.globo_option_default_logo, media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
                   </li>
                 {%- endunless -%}
               {%- endfor -%}
@@ -3085,6 +3084,17 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "globo_option_default_name",
+      "default": "<b>DIT NAVN</b>",
+      "label": "Globo Option Default Name"
+    },
+    {
+      "type": "image_picker",
+      "id": "globo_option_default_logo",
+      "label": "Globo Option Default Logo"
     },
     {
       "type": "header",

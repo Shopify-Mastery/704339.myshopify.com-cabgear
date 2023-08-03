@@ -92,10 +92,11 @@
     <div class="product__media image-animate media media--{{ image_ratio }}{% if mobile_image_ratio %} media-mobile--{{ mobile_image_ratio }}{% endif %}"
       {%- if image_ratio == 'adapt' or mobile_image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;"{% endif -%}
     >
-    <div class="product-media__name-overlay">
-      DIT NAVN
-    </div>
-      <img src="{{ 'default-logo.png' | asset_url }}" height="50" width="50" class="product-media__logo-overlay"/>
+      <div class="product-media__name-overlay">
+        {{ globo_option_default_name }}
+      </div>
+
+      <img src="{{ globo_option_default_logo | image_url }}" alt="DIT LOGO" height="50" width="50" class="product-media__logo-overlay"/>
       {{ media.preview_image | image_url: width: 1500 | image_tag:
         loading: image_loading,
         sizes: sizes,
