@@ -243,7 +243,7 @@
                     data-media-position="{{ media.position }}"
                     {% if gang_exist == true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}"{% endif %}
                   >
-                    {% render 'product-image', globo_option_default_name: section.settings.globo_option_default_name, globo_option_default_logo: section.settings.globo_option_default_logo, media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
+                    {% render 'product-image', globo_option_ignore_product_media: section.settings.globo_option_ignore_product_media, globo_option_default_name: section.settings.globo_option_default_name, globo_option_default_logo: section.settings.globo_option_default_logo, media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
                   </li>
                 {%- endunless -%}
               {%- endfor -%}
@@ -774,34 +774,21 @@
             {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, show_pickup_availability: true %}
             <script type="text/javascript">
               document.addEventListener('DOMContentLoaded', function() {
+                const intervalDuration = 500;
+                {% comment %} const ignoreFirstHowManyProductMedias = Number({{ section.settings.globo_option_ignore_product_media }}) {% endcomment %}
+
                 let globoNameInputEl = null
-                let globoLogoRadioEl = null
                 let globoLogoImageEl = null
-
-                function searchGloboInputElements() {
-                  globoNameInputEl = document.querySelector('div.globo-name__input-element input[type="text"]');
-                  globoLogoRadioEl = document.querySelector('div.globo-logo__radio-element input[type="checkbox"]');
-                  globoLogoImageEl = document.querySelector('div.globo-logo__image-element input[type="file"]');
-                  
-                  if (globoNameInputEl || globoLogoRadioEl || globoLogoImageEl) {
-                    clearInterval(searchInterval);
-                    addEventListenersToGloboInputElements()
-                  }
-                }
-
-                const intervalDuration = 500; // 1 second
-
-                const searchInterval = setInterval(searchGloboInputElements, intervalDuration);
 
                 const nameOverlayEls = document.querySelectorAll('div.product-media__name-overlay');
 
+                const logoOverlayElements = document.querySelectorAll('img.product-media__logo-overlay');
+
                 function updateNameOverlayContent() {
-                  nameOverlayEls.forEach(nameOverlayEl => {
+                  nameOverlayEls.forEach((nameOverlayEl, index) => {
                     nameOverlayEl.textContent = globoNameInputEl.value;
                   })
                 }
-
-                const logoOverlayElements = document.querySelectorAll('img.product-media__logo-overlay');
 
                 function updateLogoOverlayContent() {
                   const file = globoLogoImageEl.files[0];
@@ -809,7 +796,7 @@
 
                   reader.onload = function (event) {
                     const imageUrl = event.target.result;
-                    logoOverlayElements.forEach((imgElement) => {
+                    logoOverlayElements.forEach((imgElement, index) => {
                       imgElement.src = imageUrl;
                     });
                   };
@@ -823,6 +810,18 @@
                   globoNameInputEl.addEventListener('input', updateNameOverlayContent);
                   globoLogoImageEl.addEventListener('change', updateLogoOverlayContent);
                 }
+
+                function searchGloboInputElements() {
+                  globoNameInputEl = document.querySelector('div.globo-name__input-element input[type="text"]');
+                  globoLogoImageEl = document.querySelector('div.globo-logo__image-element input[type="file"]');
+                  
+                  if (globoNameInputEl || globoLogoImageEl) {
+                    clearInterval(searchInterval);
+                    addEventListenersToGloboInputElements()
+                  }
+                }
+
+                const searchInterval = setInterval(searchGloboInputElements, intervalDuration);
               });
             </script>
           {%- when 'rating' -%}
@@ -3125,6 +3124,12 @@
       "label": "t:sections.main-product.settings.enable_video_looping.label"
     },
     {
+      "type": "number",
+      "id": "globo_option_ignore_product_media",
+      "label": "Globo Option Ignore Product Media",
+      "default": 2
+    },
+    {
       "type": "inline_richtext",
       "id": "globo_option_default_name",
       "default": "<b>DIT NAVN</b>",
@@ -3134,6 +3139,16 @@
       "type": "image_picker",
       "id": "globo_option_default_logo",
       "label": "Globo Option Default Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "globo_option_socket_logo",
+      "label": "Globo Option Socket Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "globo_option_usb_port_logo",
+      "label": "Globo Option USB Port Logo"
     },
     {
       "type": "header",
