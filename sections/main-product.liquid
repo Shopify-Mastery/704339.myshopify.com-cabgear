@@ -27,17 +27,51 @@
     transform: rotateZ(315deg) !important;
 
     font-size: 1rem !important;
-    color: white !important;;
+    color: white !important;
+    text-align: center;
   }
 
   .product-media__logo-overlay {
+    background-image: url('{{ section.settings.globo_option_default_logo | image_url }}') !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+
     position: absolute !important;
-    top: 30% !important;
+    top: 35% !important;
     left: 35% !important;
     z-index: 10000 !important;
 
     height: 5rem !important;
-    width: 5rem !important;
+    width: 9rem !important;
+  }
+
+  .product-media__socket-usb-port-outlet {
+    position: absolute !important;
+    z-index: 10000 !important;
+
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+
+    height: 3rem !important;
+    width: 3rem !important;
+
+    transform: rotateZ(45deg) !important;
+  }
+
+  .socket-usb-port-outlet__pos-1 {
+    background-image: url('{{ section.settings.globo_option_default_usb_port_logo | image_url }}') !important;
+
+    top: 46% !important;
+    left: 72% !important;
+  }
+
+  .socket-usb-port-outlet__pos-2 {
+    background-image: url('{{ section.settings.globo_option_default_socket_logo | image_url }}') !important;
+
+    top: 52% !important;
+    left: 79% !important;
   }
 
   @media screen and (min-width: 375px) {
@@ -46,51 +80,198 @@
     }
 
     .product-media__logo-overlay {
-      left: 40% !important;
+      left: 35% !important;
+      height: 6rem !important;
+      width: 10rem !important;
     }
   }
 
   @media screen and (min-width: 425px) {
     .product-media__name-overlay {
-      left: 20% !important;
-      top: 30% !important;
       width: 8rem !important;
     }
 
     .product-media__logo-overlay {
-      left: 40% !important;
-      top: 32% !important;
+      left: 33% !important;
+      height: 6.5rem !important;
+      width: 11rem !important;
     }
   }
 
-  @media screen and (min-width: 768px) {
-    .product-media__name-overlay {
-      left: 18% !important;
+  @media screen and (min-width: 480px) {
+    .product-media__logo-overlay {
+      height: 7rem !important;
+      width: 13rem !important;
     }
   }
 
-
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 512px) {
     .product-media__name-overlay {
+      width: 10rem !important;
       font-size: 1.5rem !important;
+    }
+
+    .product-media__socket-usb-port-outlet {
+      height: 4rem !important;
+      width: 4rem !important;
+    }
+  }
+
+  @media screen and (min-width: 560px) {
+    .product-media__logo-overlay {
+      top: 36% !important;
+      height: 8rem !important;
+      width: 15rem !important;
+    }
+
+    .product-media__socket-usb-port-outlet {
+      height: 5rem !important;
+      width: 5rem !important;
+    }
+  }
+
+  @media screen and (min-width: 608px) {
+    .product-media__logo-overlay {
+      height: 9rem !important;
+      width: 16rem !important;
+    }
+  }
+
+  @media screen and (min-width: 680px) {
+    .product-media__logo-overlay {
+      top: 35% !important;
+      height: 10rem !important;
+      width: 18rem !important;
+    }
+  }
+
+  @media screen and (min-width: 720px) {
+    .product-media__logo-overlay {
+      top: 33% !important;
+      height: 12rem !important;
+      width: 20rem !important;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    .product-media__name-overlay {
       top: 30% !important;
       left: 18% !important;
-      width: 12rem !important;
+
+      height: auto !important;
+      width: 7rem !important;
+
+      font-size: 1rem !important;
+      color: white !important;
+      text-align: center;
     }
 
     .product-media__logo-overlay {
-      top: 32% !important;
-      left: 38% !important;
+      top: 35% !important;
+      left: 35% !important;
+
+      height: 5rem !important;
+      width: 9rem !important;
+    }
+
+    .product-media__socket-usb-port-outlet {
+      height: 3rem !important;
+      width: 3rem !important;
+    }
+
+    .socket-usb-port-outlet__pos-1 {
+      top: 46% !important;
+      left: 72% !important;
+    }
+
+    .socket-usb-port-outlet__pos-2 {
+      top: 52% !important;
+      left: 79% !important;
+    }
+  }
+
+  @media screen and (min-width: 816px) {
+    .product-media__name-overlay {
+      top: 30% !important;
+      left: 20% !important
+    }
+  }
+
+  @media screen and (min-width: 864px) {
+    .product-media__logo-overlay {
+      top: 35% !important;
+      left: 35% !important;
+
+      height: 6rem !important;
+      width: 10rem !important;
+    }
+  }
+
+  @media screen and (min-width: 920px) {
+    .product-media__logo-overlay {
+      top: 34% !important;
 
       height: 7rem !important;
-      width: 7rem !important;
+      width: 11rem !important;
     }
+  }
+
+  @media screen and (min-width: 990px) {
+    .product-media__logo-overlay {
+      height: 6rem !important;
+      width: 10rem !important;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .product-media__name-overlay {
+      top: 30% !important;
+      left: 18% !important;
+      width: 10rem !important;
+      font-size: 1.5rem !important;
+    }
+
+    .product-media__logo-overlay {
+      height: 7.5rem !important;
+      width: 12rem !important;
+    }
+
+    .product-media__socket-usb-port-outlet {
+      height: 4rem !important;
+      width: 4rem !important;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .product-media__logo-overlay {
+      top: 33% !important;
+      left: 33% !important;
+      height: 10rem !important;
+      width: 15rem !important;
+    } 
+
+    .product-media__socket-usb-port-outlet {
+      height: 5rem !important;
+      width: 5rem !important;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    .product-media__name-overlay {
+      top: 30% !important;
+      left: 20% !important;
+      width: 12rem !important;
+      font-size: 1.5rem !important;
+    }
+
+    .product-media__logo-overlay {
+      top: 35% !important;
+      width: 16.5rem !important;
+    } 
   }
 
   @media screen and (min-width: 2560px) {
     .product-media__name-overlay {
-      top: 30% !important;
-      left: 20% !important;
       font-size: 1.5rem !important;
     }
   }
@@ -243,7 +424,7 @@
                     data-media-position="{{ media.position }}"
                     {% if gang_exist == true %}data-gang-option="{{ gang_option_name }}" data-gang-connect="{{ gang_connect }}"{% endif %}
                   >
-                    {% render 'product-image', globo_option_ignore_product_media: section.settings.globo_option_ignore_product_media, globo_option_default_name: section.settings.globo_option_default_name, globo_option_default_logo: section.settings.globo_option_default_logo, media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
+                    {% render 'product-image', globo_option_ignore_product_media: section.settings.globo_option_ignore_product_media, globo_option_default_name: section.settings.globo_option_default_name, media: media, position: forloop.index, zoom: section.settings.enable_image_zoom, loop: section.settings.enable_video_looping, modal_id: section.id, xr_button: true, media_width: media_width, image_ratio: image_ratio, mobile_image_ratio: mobile_image_ratio %}
                   </li>
                 {%- endunless -%}
               {%- endfor -%}
@@ -3142,13 +3323,13 @@
     },
     {
       "type": "image_picker",
-      "id": "globo_option_socket_logo",
-      "label": "Globo Option Socket Logo"
+      "id": "globo_option_default_usb_port_logo",
+      "label": "Globo Option Default USB Port Logo"
     },
     {
       "type": "image_picker",
-      "id": "globo_option_usb_port_logo",
-      "label": "Globo Option USB Port Logo"
+      "id": "globo_option_default_socket_logo",
+      "label": "Globo Option Default Socket Logo"
     },
     {
       "type": "header",

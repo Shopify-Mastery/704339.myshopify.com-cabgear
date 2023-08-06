@@ -99,7 +99,12 @@
           {{ globo_option_default_name }}
         </div>
 
-        <img src="{{ globo_option_default_logo | image_url }}" alt="DIT LOGO" height="50" width="50" class="product-media__logo-overlay"/>
+        <div class="product-media__logo-overlay">
+        </div>
+
+        <div class="product-media__socket-usb-port-outlet socket-usb-port-outlet__pos-1"></div>
+
+        <div class="product-media__socket-usb-port-outlet socket-usb-port-outlet__pos-2"></div>
       {%- endunless -%}
 
       {{ media.preview_image | image_url: width: 1500 | image_tag:
