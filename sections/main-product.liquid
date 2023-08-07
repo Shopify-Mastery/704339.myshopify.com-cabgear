@@ -964,13 +964,13 @@
                 const intervalDuration = 500;
 
                 let globoNameInputEl = null
+                let globoLogoSwitchEl = null
                 let globoLogoImageEl = null
                 let globoSocketUSBPortOutletButtonEls = null
                 let globoSocketOutletCheckboxEl = null
                 let globoUSBPortOutletCheckboxEl = null
 
                 const nameOverlayEls = document.querySelectorAll('div.product-media__name-overlay');
-
                 const logoOverlayEls = document.querySelectorAll('div.product-media__logo-overlay');
 
                 function updateNameOverlayContent() {
@@ -992,9 +992,10 @@
                   const file = globoLogoImageEl.files[0];
                   const reader = new FileReader();
 
+                  console.log(file)
+
                   const style = document.createElement("style");
                   document.head.appendChild(style);
-
 
                   reader.onload = function (event) {
                     const imgData = event.target.result;
@@ -1012,6 +1013,21 @@
                 function addEventListenersToGloboInputElements() {
                   if (globoNameInputEl) {
                     globoNameInputEl.addEventListener('input', updateNameOverlayContent);
+                  }
+
+                  if (globoLogoSwitchEl) {
+                    globoLogoSwitchEl.addEventListener('change', function() {
+                      if (!this.checked) {
+                        const style = document.createElement("style");
+                        document.head.appendChild(style);
+
+                        const css = `ul#Slider-Gallery-{{ section.id }} li div.product-media__logo-overlay { background-image: url('') !important; }`;
+                        style.sheet.insertRule(css, 0);
+
+                        const gpoFileRemoveBtnEl = document.querySelector('button.gpo-fileRemove')
+                        gpoFileRemoveBtnEl.click()
+                      }
+                    });
                   }
 
                   if (globoLogoImageEl) {
@@ -1067,10 +1083,11 @@
 
                 function searchGloboInputElements() {
                   globoNameInputEl = document.querySelector('div.globo-name__input-element input[type="text"]');
+                  globoLogoSwitchEl = document.querySelector('div.globo-logo__switch-element input[type="checkbox"]');
                   globoLogoImageEl = document.querySelector('div.globo-logo__image-element input[type="file"]');
                   globoSocketUSBPortOutletButtonEls = document.querySelectorAll('div.globo-socket-usb-port-outlet__button-element input[type="checkbox"]')
 
-                  if (globoNameInputEl || globoLogoImageEl || globoSocketUSBPortOutletButtonEls.length > 0) {
+                  if (globoNameInputEl || globoLogoSwitchEl || globoLogoImageEl || globoSocketUSBPortOutletButtonEls.length > 0) {
                     clearInterval(searchInterval);
                     addEventListenersToGloboInputElements()
 
