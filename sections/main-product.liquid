@@ -15,6 +15,10 @@
     --section-padding-bottom: {{ section.settings.padding_bottom }}px;
   }
 
+  #Slider-Gallery-{{ section.id }} div.black-text {
+    color: black !important;
+  }
+
   .product-media__name-overlay {
     position: absolute !important;
     top: 30% !important;
@@ -971,6 +975,15 @@
 
                 function updateNameOverlayContent() {
                   nameOverlayEls.forEach((nameOverlayEl, index) => {
+                    const parentEl = nameOverlayEl.parentNode;
+                    const imgEl = parentEl.querySelector('img')
+
+                    const hasLightDirective = imgEl.getAttribute('alt').toLowerCase().includes('light')
+
+                    if (hasLightDirective) {
+                      nameOverlayEl.classList.add('black-text');
+                    }
+
                     nameOverlayEl.textContent = globoNameInputEl.value;
                   })
                 }
@@ -987,10 +1000,6 @@
                     const imgData = event.target.result;
 
                     const css = `ul#Slider-Gallery-{{ section.id }} li div.product-media__logo-overlay { background-image: url(${imgData}) !important; }`;
-
-                    {% comment %} logoOverlayEls.forEach(logoOverlayEl => { {% endcomment %}
-                    {% comment %}   imgElement.src = imageUrl; {% endcomment %}
-                    {% comment %} }); {% endcomment %}
 
                     style.sheet.insertRule(css, 0);
                   };
@@ -1018,25 +1027,38 @@
 
                       if (isGloboUSBPortOutletCheckboxEl) {
                         globoUSBPortOutletCheckboxEl = checkboxEl;
+
                         globoUSBPortOutletCheckboxEl.addEventListener('change', function() {
-                          if (this.checked) {
-                            document.querySelector('div.socket-usb-port-outlet__pos-1').style.display = 'block';
-                          } else {
-                            document.querySelector('div.socket-usb-port-outlet__pos-1').style.display = 'none';
-                          }
+                          const usbPortOutletOverlayEls = document.querySelectorAll('div.socket-usb-port-outlet__pos-1');
+
+                          usbPortOutletOverlayEls.forEach(usbPortOutletOverlayEl => {
+                            if (this.checked) {
+                              usbPortOutletOverlayEl.style.display = 'block';
+                            } else {
+                              usbPortOutletOverlayEl.style.display = 'none';
+                            }
+                          })
                         })
+
                         globoUSBPortOutletCheckboxEl.dispatchEvent(event)
                       }
 
                       if (isGloboSocketOutletCheckboxEl) {
                         globoSocketOutletCheckboxEl = checkboxEl;
+
                         globoSocketOutletCheckboxEl.addEventListener('change', function() {
-                          if (this.checked) {
-                            document.querySelector('div.socket-usb-port-outlet__pos-2').style.display = 'block';
-                          } else {
-                            document.querySelector('div.socket-usb-port-outlet__pos-2').style.display = 'none';
-                          }
+
+                          const socketOutletOverlayEls = document.querySelectorAll('div.socket-usb-port-outlet__pos-2');
+
+                          socketOutletOverlayEls.forEach(socketOutletOverlayEl => {
+                            if (this.checked) {
+                              socketOutletOverlayEl.style.display = 'block';
+                            } else {
+                              socketOutletOverlayEl.style.display = 'none';
+                            }
+                          })
                         })
+
                         globoSocketOutletCheckboxEl.dispatchEvent(event)
                       }
                     })
@@ -1051,6 +1073,16 @@
                   if (globoNameInputEl || globoLogoImageEl || globoSocketUSBPortOutletButtonEls.length > 0) {
                     clearInterval(searchInterval);
                     addEventListenersToGloboInputElements()
+
+                    const lightProductMediaEls = document.querySelectorAll('ul#Slider-Gallery-{{ section.id }} li img[alt="Light"]')
+
+                    lightProductMediaEls.forEach(lightProductMediaEl => {
+                      const parentEl = lightProductMediaEl.parentNode;
+                      const nameOverlayEl = parentEl.querySelector('div.product-media__name-overlay')
+
+                      nameOverlayEl.classList.add('black-text');
+                    })
+
                   }
                 }
 
