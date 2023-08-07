@@ -61,6 +61,7 @@
   }
 
   .socket-usb-port-outlet__pos-1 {
+    display: none;
     background-image: url('{{ section.settings.globo_option_default_usb_port_logo | image_url }}') !important;
 
     top: 46% !important;
@@ -68,6 +69,7 @@
   }
 
   .socket-usb-port-outlet__pos-2 {
+    display: none;
     background-image: url('{{ section.settings.globo_option_default_socket_logo | image_url }}') !important;
 
     top: 52% !important;
@@ -956,14 +958,16 @@
             <script type="text/javascript">
               document.addEventListener('DOMContentLoaded', function() {
                 const intervalDuration = 500;
-                {% comment %} const ignoreFirstHowManyProductMedias = Number({{ section.settings.globo_option_ignore_product_media }}) {% endcomment %}
 
                 let globoNameInputEl = null
                 let globoLogoImageEl = null
+                let globoSocketUSBPortOutletButtonEls = null
+                let globoSocketOutletCheckboxEl = null
+                let globoUSBPortOutletCheckboxEl = null
 
                 const nameOverlayEls = document.querySelectorAll('div.product-media__name-overlay');
 
-                const logoOverlayElements = document.querySelectorAll('img.product-media__logo-overlay');
+                const logoOverlayEls = document.querySelectorAll('div.product-media__logo-overlay');
 
                 function updateNameOverlayContent() {
                   nameOverlayEls.forEach((nameOverlayEl, index) => {
@@ -975,11 +979,20 @@
                   const file = globoLogoImageEl.files[0];
                   const reader = new FileReader();
 
+                  const style = document.createElement("style");
+                  document.head.appendChild(style);
+
+
                   reader.onload = function (event) {
-                    const imageUrl = event.target.result;
-                    logoOverlayElements.forEach((imgElement, index) => {
-                      imgElement.src = imageUrl;
-                    });
+                    const imgData = event.target.result;
+
+                    const css = `ul#Slider-Gallery-{{ section.id }} li div.product-media__logo-overlay { background-image: url(${imgData}) !important; }`;
+
+                    {% comment %} logoOverlayEls.forEach(logoOverlayEl => { {% endcomment %}
+                    {% comment %}   imgElement.src = imageUrl; {% endcomment %}
+                    {% comment %} }); {% endcomment %}
+
+                    style.sheet.insertRule(css, 0);
                   };
 
                   if (file) {
@@ -988,15 +1001,54 @@
                 }
 
                 function addEventListenersToGloboInputElements() {
-                  globoNameInputEl.addEventListener('input', updateNameOverlayContent);
-                  globoLogoImageEl.addEventListener('change', updateLogoOverlayContent);
+                  if (globoNameInputEl) {
+                    globoNameInputEl.addEventListener('input', updateNameOverlayContent);
+                  }
+
+                  if (globoLogoImageEl) {
+                    globoLogoImageEl.addEventListener('change', updateLogoOverlayContent);
+                  }
+
+                  if (globoSocketUSBPortOutletButtonEls.length > 0) {
+                    const event = new Event("change", { bubbles: true });
+
+                    globoSocketUSBPortOutletButtonEls.forEach(checkboxEl => {
+                      const isGloboUSBPortOutletCheckboxEl = checkboxEl.getAttribute('value').toLowerCase().includes('usb'); //USB-Port -> false
+                      const isGloboSocketOutletCheckboxEl = checkboxEl.getAttribute('value').toLowerCase().includes('12v'); //12v-Stikdåse -> true
+
+                      if (isGloboUSBPortOutletCheckboxEl) {
+                        globoUSBPortOutletCheckboxEl = checkboxEl;
+                        globoUSBPortOutletCheckboxEl.addEventListener('change', function() {
+                          if (this.checked) {
+                            document.querySelector('div.socket-usb-port-outlet__pos-1').style.display = 'block';
+                          } else {
+                            document.querySelector('div.socket-usb-port-outlet__pos-1').style.display = 'none';
+                          }
+                        })
+                        globoUSBPortOutletCheckboxEl.dispatchEvent(event)
+                      }
+
+                      if (isGloboSocketOutletCheckboxEl) {
+                        globoSocketOutletCheckboxEl = checkboxEl;
+                        globoSocketOutletCheckboxEl.addEventListener('change', function() {
+                          if (this.checked) {
+                            document.querySelector('div.socket-usb-port-outlet__pos-2').style.display = 'block';
+                          } else {
+                            document.querySelector('div.socket-usb-port-outlet__pos-2').style.display = 'none';
+                          }
+                        })
+                        globoSocketOutletCheckboxEl.dispatchEvent(event)
+                      }
+                    })
+                  }
                 }
 
                 function searchGloboInputElements() {
                   globoNameInputEl = document.querySelector('div.globo-name__input-element input[type="text"]');
                   globoLogoImageEl = document.querySelector('div.globo-logo__image-element input[type="file"]');
-                  
-                  if (globoNameInputEl || globoLogoImageEl) {
+                  globoSocketUSBPortOutletButtonEls = document.querySelectorAll('div.globo-socket-usb-port-outlet__button-element input[type="checkbox"]')
+
+                  if (globoNameInputEl || globoLogoImageEl || globoSocketUSBPortOutletButtonEls.length > 0) {
                     clearInterval(searchInterval);
                     addEventListenersToGloboInputElements()
                   }
