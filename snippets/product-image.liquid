@@ -94,7 +94,11 @@
     >
       {% assign number_of_media_to_ignore = globo_option_ignore_product_media | plus: 1 %}
 
-      {%- unless position < number_of_media_to_ignore -%}
+      <span style="display: none">{{ position }}</span>
+        
+      <!-- {%- unless position < number_of_media_to_ignore -%} -->
+      <!-- {%- endunless -%} -->
+      {%- if position == "featured" or position >= number_of_media_to_ignore -%}
         <div class="product-media__name-overlay">
           {{ globo_option_default_name }}
         </div>
@@ -105,7 +109,7 @@
         <div class="product-media__socket-usb-port-outlet socket-usb-port-outlet__pos-1"></div>
 
         <div class="product-media__socket-usb-port-outlet socket-usb-port-outlet__pos-2"></div>
-      {%- endunless -%}
+      {%- endif -%}
 
       {{ media.preview_image | image_url: width: 1500 | image_tag:
         loading: image_loading,

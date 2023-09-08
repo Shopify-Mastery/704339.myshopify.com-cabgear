@@ -17,6 +17,90 @@
         "padding_bottom": 72
       }
     },
+    "7735e647-6991-4d33-ba8f-8f7300e5640b": {
+      "type": "collection-list",
+      "blocks": {
+        "25e82e60-3fef-4b04-b7d1-5d1e209108e4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nyheder",
+            "image": "shopify:\/\/shop_images\/Nyheder.png",
+            "image_position": "center center"
+          }
+        },
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-holland",
+            "image": "shopify:\/\/shop_images\/New_Holland.png",
+            "image_position": "center center"
+          }
+        },
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "john-deere",
+            "image": "shopify:\/\/shop_images\/John_Deere.png",
+            "image_position": "center center"
+          }
+        },
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fendt",
+            "image": "shopify:\/\/shop_images\/Fendt.png",
+            "image_position": "center center"
+          }
+        },
+        "6d87d701-f237-460c-b765-77e86a48d294": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massey-ferguson",
+            "image": "shopify:\/\/shop_images\/MF.png",
+            "image_position": "center center"
+          }
+        },
+        "d5bee024-ef5d-4881-ac7a-eaa3aa59c267": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "valtra",
+            "image": "shopify:\/\/shop_images\/6_cfd5b914-0129-42d3-81ae-48c645055644.png",
+            "image_position": "center center"
+          }
+        },
+        "2e736ec0-9ccb-42f4-a045-1a85722be5f2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "claas",
+            "image": "shopify:\/\/shop_images\/Claas_77e512a7-5c04-45a1-af43-dd70a0e2d36e.png",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "25e82e60-3fef-4b04-b7d1-5d1e209108e4",
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-1",
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-2",
+        "template--18003965313291__7735e647-6991-4d33-ba8f-8f7300e5640b-featured_collection-3",
+        "6d87d701-f237-460c-b765-77e86a48d294",
+        "d5bee024-ef5d-4881-ac7a-eaa3aa59c267",
+        "2e736ec0-9ccb-42f4-a045-1a85722be5f2"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "heading": "VÆLG TRAKTORMÆRKE",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "image_ratio": "wide",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "600724a7-415a-49ad-8316-d2dc9512824c": {
       "type": "gallery",
       "blocks": {
@@ -107,6 +191,7 @@
         "810d0f38-d444-440a-9b8f-099c5c4b33f5",
         "641897cd-c5b6-4edc-8723-b4d832ef3aa0"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 3,
         "spacing_images": 10,
@@ -140,6 +225,7 @@
   },
   "order": [
     "main",
+    "7735e647-6991-4d33-ba8f-8f7300e5640b",
     "600724a7-415a-49ad-8316-d2dc9512824c",
     "017e4123-33ac-436a-9061-92e495953785"
   ]

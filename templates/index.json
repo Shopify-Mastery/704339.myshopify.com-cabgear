@@ -35,8 +35,8 @@
         "template--17118604460299__2c71e23c-ef5c-4362-b7a6-fcbaacc4490d-16738848801c96cb6c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Jan_cleaup_foto_2.png",
-        "image_position": "center center",
+        "image": "shopify:\/\/shop_images\/Snapinsta.app_313530252_199398989142071_7074456213673795373_n_1080.jpg",
+        "image_position": "20% 50%",
         "text_box_position": "middle-center",
         "text_alignment": "center",
         "image_ratio": "650px",
@@ -116,6 +116,81 @@
         "gradient_background": "",
         "padding_top": 28,
         "padding_bottom": 24
+      }
+    },
+    "10e970a1-89a6-4167-9a4e-60c1bb2820ee": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "new-holland",
+            "image": "shopify:\/\/shop_images\/New_Holland.png",
+            "image_position": "center center"
+          }
+        },
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "john-deere",
+            "image": "shopify:\/\/shop_images\/John_Deere.png",
+            "image_position": "center center"
+          }
+        },
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fendt",
+            "image": "shopify:\/\/shop_images\/Fendt.png",
+            "image_position": "center center"
+          }
+        },
+        "5e985113-bcc0-40b2-934d-194d54566f7e": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "massey-ferguson",
+            "image": "shopify:\/\/shop_images\/MF.png",
+            "image_position": "center center"
+          }
+        },
+        "aa620f4a-857e-4c40-b5ff-6e638d7308e9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "valtra",
+            "image": "shopify:\/\/shop_images\/6_cfd5b914-0129-42d3-81ae-48c645055644.png",
+            "image_position": "center center"
+          }
+        },
+        "362854e8-10cd-4325-8d79-f17d6663de60": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "claas",
+            "image": "shopify:\/\/shop_images\/Claas_77e512a7-5c04-45a1-af43-dd70a0e2d36e.png",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-1",
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-2",
+        "template--18003965280523__10e970a1-89a6-4167-9a4e-60c1bb2820ee-featured_collection-3",
+        "5e985113-bcc0-40b2-934d-194d54566f7e",
+        "aa620f4a-857e-4c40-b5ff-6e638d7308e9",
+        "362854e8-10cd-4325-8d79-f17d6663de60"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "image_ratio": "wide",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "983be280-a08f-4164-99d2-c91591b394f7": {
@@ -238,6 +313,7 @@
         "f340ffd0-fdbb-44ce-8465-4ba00bc494ee",
         "724d2a60-d4ba-4315-973e-b97d84361ee1"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 3,
         "spacing_images": 10,
@@ -391,7 +467,7 @@
       "type": "apps",
       "blocks": {
         "428d021c-f355-4bff-9b5d-10a28b8dcdb8": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "disabled": true,
           "settings": {
             "heading_size": 22,
@@ -414,6 +490,7 @@
   "order": [
     "2c71e23c-ef5c-4362-b7a6-fcbaacc4490d",
     "322be502-aa52-461e-895a-c8933238c56c",
+    "10e970a1-89a6-4167-9a4e-60c1bb2820ee",
     "983be280-a08f-4164-99d2-c91591b394f7",
     "4a83673a-d9a6-4d17-85b2-2ba8b0208aba",
     "a4fbec7f-bada-43d2-be29-35b3413431fa",

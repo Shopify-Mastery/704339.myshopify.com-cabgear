@@ -174,7 +174,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/1_ddccb190-0711-46b4-8082-403b81a13edc.png",
           "logo_height": 66,
-          "mobile_logo_height": 44,
+          "mobile_logo_height": 50,
           "logo_position": "center-split",
           "menu": "main-menu",
           "enable_dropdown_menu": true,
@@ -493,6 +493,12 @@
       },
       "3720565183479497137": {
         "type": "shopify:\/\/apps\/globo-product-options-variant\/blocks\/app-embed-block\/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "4571859552318407796": {
+        "type": "shopify:\/\/apps\/glo-color-swatch-variant-image\/blocks\/app-embed-block\/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": false,
         "settings": {
         }

@@ -47,6 +47,16 @@
             "show_badges": true
           }
         },
+        "add7992a-998e-48ba-81d8-c22123666767": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatch_type": "round",
+            "size_chart": ""
+          }
+        },
         "countdown": {
           "type": "countdown",
           "settings": {
@@ -135,6 +145,7 @@
         "title",
         "rating",
         "price",
+        "add7992a-998e-48ba-81d8-c22123666767",
         "countdown",
         "buy_buttons",
         "inventory_status",
@@ -167,9 +178,90 @@
         "padding_bottom": 72
       }
     },
+    "7d4d1f43-02eb-428f-b501-e91610e11456": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_96bc3fc6-79eb-4507-b081-59e31fc320bc.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_08e0a294-014c-4d48-81d3-b63d2f03ec9a.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_d8e7f1e6-05f8-438c-982c-d517c27b6496.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "31856920-1926-4ba5-862f-bda14162fa4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_ddd93217-c75c-4c14-981f-534579c51ceb.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "27911698-7ea3-40f7-94b2-0c2632706cf9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_ae50ea22-a757-4349-8385-5f28604767ac.png",
+            "height": 200,
+            "link": ""
+          }
+        },
+        "ff2e82d8-044d-46fa-a928-d4dce2530d8d": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        },
+        "9c8f2244-7b61-435c-ab52-768508801276": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "height": 80,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-1",
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-2",
+        "template--18003965935883__7d4d1f43-02eb-428f-b501-e91610e11456-image-3",
+        "31856920-1926-4ba5-862f-bda14162fa4f",
+        "27911698-7ea3-40f7-94b2-0c2632706cf9",
+        "ff2e82d8-044d-46fa-a928-d4dce2530d8d",
+        "9c8f2244-7b61-435c-ab52-768508801276"
+      ],
+      "settings": {
+        "direction": "right",
+        "speed": 2,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6916a7c7-22a0-4653-9fd6-06d8b854caa6": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "template--17118604886283__6916a7c7-22a0-4653-9fd6-06d8b854caa6-1685372409c44c7389-0": {
           "type": "image",
@@ -230,6 +322,7 @@
         "template--17118604886283__6916a7c7-22a0-4653-9fd6-06d8b854caa6-1685372409c44c7389-2",
         "template--17118604886283__6916a7c7-22a0-4653-9fd6-06d8b854caa6-1685372409c44c7389-3"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 4,
         "spacing_images": 4,
@@ -393,6 +486,7 @@
   "order": [
     "empty-space",
     "main",
+    "7d4d1f43-02eb-428f-b501-e91610e11456",
     "6916a7c7-22a0-4653-9fd6-06d8b854caa6",
     "84b7553d-eaeb-4054-94a3-fd04c0fd9d10",
     "18b46df9-5fe4-406f-a5e5-44d78d65b27c",
